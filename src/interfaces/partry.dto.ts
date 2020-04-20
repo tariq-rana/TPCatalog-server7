@@ -1,0 +1,36 @@
+export interface IPartyDTO{
+    partyID?:string;
+    company:string;
+    title:string;
+    firstName:string;
+    lastName:string;
+    partyTypeID:string;
+    curID:string;
+    bizPhone:string;
+    mobile:string;
+    fax:string;
+    email:String;
+    webSite:string;
+    skype:string;
+    addTypeID:string;
+    add1:string;
+    add2:string;
+    add3:string;
+    city:string;
+    state:string;
+    zip:string;
+    countryID:string;
+    prodIns:string;
+    remarksCust:string;
+    stamp:string;
+    deliveryTerms:string;
+    payTerms:string;
+    rmKt:string;
+    isStdWt:boolean;
+    isFixPrice:boolean;
+    isActWt:boolean;
+    markupPCT:number;
+    discountPCT:number;
+    remarks:string;
+    termID?:string;
+}
